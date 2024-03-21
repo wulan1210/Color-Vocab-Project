@@ -1,0 +1,38 @@
+ol{
+    margin-left: -40px;
+    margin-top: -20px;
+    list-style-position: inside;
+    
+}
+
+li{
+    text-decoration-color:pink;
+    color:pink;
+    text-emphasis-color: pink;
+}
+
+li.note[value="2"] {
+    
+    color: rgba(0, 0, 255, 0.289);
+}
+
+.note{
+    font-size: 20px;;
+}
+
+#id-selector-demo{
+    color: rgba(0, 128, 0, 0.396);
+}
+
+li[value="4"]{
+    color: grey;
+}
+
+li[value="5"]{
+    color:rgba(128, 0, 128, 0.51)
+}
+
+*{
+    text-align: left;
+    font-weight: normal;
+}
